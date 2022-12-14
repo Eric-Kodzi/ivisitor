@@ -1,0 +1,83 @@
+
+.add-employee {
+  background-color: white;
+  margin-top: 100px;
+}
+
+.add-button {
+  display: block;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: transparent;
+}
+
+.add-button:hover {
+    background-color: rgba(221,88,40,255);
+    color: darkblue;
+}
+
+.add-employee-form {
+    text-align: left;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.add-employee-form input {
+    margin: 10px 0;
+}
+
+.add-employee-form label {
+    margin: 18px 0;
+}
+
+.create-profile-button {
+    background-color: tomato;
+    padding: 15px 30px;
+    margin: 20px auto;
+    border-radius: 30px;
+    display: block;
+
+}
+
+.confirm-employee-profile {
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    text-align: left;
+    padding: 20px 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+
+#save-confirm-page {
+    padding: 10px 25px;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+
+#close-confirm-page {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

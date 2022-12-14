@@ -1,0 +1,77 @@
+.employee-page-header {
+    background-color: rgb(255, 199, 179);
+    padding: 20px 0px; 
+    border-bottom: 5px solid white; 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;  
+    width: 100vw;
+}
+
+.employee-page-header img {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.employee-homepage {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.employee-tasks-panel {
+    background-color: rgba(221,88,40,255);
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.employee-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    color: white;
+}
+
+.employee-menu li {
+    padding: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.employee-menu li:hover {
+    background-color: rgb(255, 199, 179);
+    color: darkblue;
+}
+
+.active-menu-item {
+    background-color: rgb(255, 199, 179);
+    color: darkblue;
+}
+
+.employee-task-page {
+    /* background-color: red; */
+    background-color: rgba(247,247,247,255);
+    margin-top: 70px;
+    /* height: 100vh; */
+}
+
+
+.profile-image-container {
+    margin: 25px auto;
+}
+.profile-image-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-image-container span {
+    display: block;
+    line-height: 3px;
+}

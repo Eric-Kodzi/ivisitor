@@ -1,0 +1,43 @@
+
+.employee-dashboard {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}
+
+.employee-stats-width {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    /* margin-top: 50px; */
+    margin-bottom: 70px;
+    justify-content: flex-start;
+}
+
+.recent-visits {
+    /* background-color: white; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 100%;
+}
+
+.recent-visits h4 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.no-data {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+

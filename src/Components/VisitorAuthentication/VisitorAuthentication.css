@@ -1,0 +1,388 @@
+body {
+    background-color: rgb(255, 199, 179);
+}
+
+.visitor-auth-header {
+    padding: 40px 0px;
+    width: 100%;
+    background-color: rgba(221,88,40,255);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.visitor-auth-header h3 {
+    color: wheat;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    word-spacing: 30px;
+    letter-spacing: 8px;
+}
+ 
+.visitor-auth-header  button {
+    display: block;
+    margin: 0 25px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* SignInOptions */
+.sign-in-options {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  auto auto;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.sign-in-options img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.right-border-div {
+    width: 110%;
+    border-right: 2px solid black;
+}
+
+.visitor-directives {
+    font-size: 25px;
+    color: darkslategray;
+}
+
+.visitor-directives span {
+    display: block;
+    margin-top: 20px;
+
+}
+
+.visitor-directives i {
+    margin: 10px;
+}
+
+.fa-barcode, .fa-edit {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 35px;
+}
+.fa-barcode:hover {
+    border-color: rgba(221,88,40,255);
+}
+
+.qr-reader-page {
+  width: 100%;
+  height: 100vh; 
+  position: absolute;
+  background-color:  rgba(0, 0, 0, 0.8);
+  top: 0px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.qr-reader-page span {
+    color: red;
+    
+}
+
+
+
+
+
+
+
+/* TypeOfVisitor */
+.type-of-visitor {
+   width: 500px;
+   height: 300px;
+   margin: 0 auto; 
+   text-align: left; 
+   font-size: 25px;
+   color: darkslategray; 
+   border-radius: 10px;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.type-of-visitor > select {
+    padding-left: 15px;
+    height:60px;
+    width:600px;
+    display:block;
+    font-size: 19px;
+    margin-top: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(255, 199, 179);
+}
+
+.active-option {
+    color: rgba(221,88,40,255);
+}
+
+.type-option {
+   margin-bottom: 10px;
+}
+
+.type-option:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+
+
+
+
+
+
+/* CollectVisitorInfo */
+.visitor-info {
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left; 
+    font-size: 25px;
+    color: darkslategray;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitor-info form {
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-gap: 60px;
+}
+
+ input {
+    background-color: rgb(255, 199, 179);
+}
+
+.visitor-info  select {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    padding-left: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+} 
+
+.bio-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+}
+
+.bio-input i, .bio-input input {
+    display: block;
+}
+
+/* SelectHost */
+.collect-info {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-host-container{
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+.show-hosts-container {
+    width: 500px;
+}
+
+.host-profile {
+    width: 400px;
+    background-color: rgba(247,247,247,255);
+    padding: 15px;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.host-profile img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.host-profile-text h3 {
+    margin: 0;
+    padding: 0;
+}
+.host-profile-text span {
+    display: block;
+    margin-top: 2px;
+}
+.host-profile:hover {
+    border: 2px solid green;
+}
+
+/* TakeSelfie */
+
+    .webcam-container
+    {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 400px;
+    margin:0 auto;
+    font-size: 25px;
+    color: darkslategray; 
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+   
+    }
+    .webcam-btn {
+    margin: 30px;
+    width: 100px;
+    padding: 15px;
+    border: transparent;
+    border-radius: 5px;
+    }
+   .webcam-btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+   }
+    .webcam-img {
+        margin-top: 18px;
+
+    }
+ 
+
+
+    /* VisitorInfoConfirm */
+    .confirm-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+        height: 350px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid darkslategray;
+    }
+
+    .details-to-confirm {
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .details-to-confirm span {
+        display: block;
+        padding: 3px;
+    }
+
+    .details-to-confirm button {
+        padding: 10px;
+    }
+
+    .showButton{
+        display: block;
+    }
+
+    .hideButton {
+        display: none;
+    }
+
+    .navButs {
+       background-color: transparent;
+       border-color: transparent; 
+    }
+
+    .next {
+      position: absolute;
+      top:25px;
+      right:30px;
+    }
+    
+    .prev {
+        position: absolute;
+        top:25px;
+        left:30px;
+    }
+
+
+    /* input style for all */
+    .input-style {
+      width: 500px;
+      height: 50px;
+      border-left: transparent;
+      border-right: transparent;
+      border-top: transparent;
+      border-radius: 0%;
+      font-size: 25px;
+      color: darkslategray;
+    }
+
+    .input-style ::placeholder {
+        color:darkslategray;
+        font-size: 30px;
+    }
+
+    .input-style-short {
+      width: 300px;
+      height: 40px;
+      border-left: transparent;
+      border-right: transparent;
+      border-top: transparent;
+      border-radius: 0%;
+      font-size: 20px;
+      color: darkslategray;
+      margin-left: 15px;
+
+    }
+
+    /* contact host */
+    .name-style {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .name-styleP {
+        color:chartreuse;
+        
+    }
+    
+    .contact-success {
+        border: 1px solid slategray;
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+    .call-image {
+        width: 700px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

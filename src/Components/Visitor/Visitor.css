@@ -1,0 +1,138 @@
+
+.visitors-page-footer {
+  text-align: left;
+  height: 100vh;
+  
+}
+
+
+
+.visitors-page-footer img {
+  width: 300px;
+  margin-top: 15px;
+}
+
+
+
+.in-out-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgba(221,88,40,255); 
+  margin-top: 50px;
+  border-radius: 10px;
+  
+}
+
+.in-out-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 30px;
+  padding: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(255, 199, 179);
+}
+
+.in-out-box:hover {
+  cursor: pointer;
+  border: 1px solid darkslateblue;
+}
+
+.in-out-box span {
+  display: inline-block;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.signout-text {
+  font-size: 25px;
+}
+
+
+
+
+/* SIGNOUT PAGE */
+
+.visitor-signout-page {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.visitor-signout-page > i {
+  color: red;
+  position:absolute;
+  right: 50px;
+  top: 50px;
+  font-size: 30px;
+}
+
+.visitor-signout-box {
+  background-color: rgba(255,255,255,0.9);
+  width: 600px;
+  height: 450px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitor-signout-box > input{
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  padding: 10px 30px;
+  font-size: 25px;
+}
+
+.visitor-signout-box > input::placeholder{
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.visitor-signout-box > button {
+  padding: 20px 45px;
+  margin-top: 30px;
+  background-color: crimson;
+}
+ .success-dialog {
+  /* position: absolute; */
+  background-color: rgba(255,255,255,0.9);
+  width: 600px;
+  height: 450px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .hide {
+  display: none;
+ }
+
+ .fa-long-arrow-left {
+  font-size: 50px;
+  color:gray;
+  position: absolute;
+  left:30px;
+  bottom: 50px;
+ }
+
+ .fa-long-arrow-left:hover {
+  color: black;
+ }

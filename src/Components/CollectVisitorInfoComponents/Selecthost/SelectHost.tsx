@@ -29,7 +29,7 @@ export const SelectHost:React.FC<Props> = ({host, setHost,setHostemail,setHostim
   }, []); 
 
   useEffect(() => {
-    fetch('/api/employees')
+    fetch('/ivisitor/api/employees')
       .then((res) => res.json())
       .then((data) => {
         setEmployees(data.employees)

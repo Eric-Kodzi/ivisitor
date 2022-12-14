@@ -56,7 +56,7 @@ export function makeServer({ environment = "test" } = {}) {
     },
 
     routes() {
-      this.namespace = "api"
+      this.namespace = "ivisitor/api"
 
       this.get("/visitorlists", (schema) => {
         return schema.visitorlists.all()

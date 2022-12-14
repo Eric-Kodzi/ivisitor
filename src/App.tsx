@@ -14,19 +14,19 @@ function App() {
     
       <div className="App">
       <Routes>
-        <Route path="/visitor" element={ <Visitor/> } />
+        <Route path="/ivisitor/visitor" element={ <Visitor/> } />
       </Routes>
       <Routes>
-        <Route path="" element={ <HomePage/> } />
+        <Route path="/ivisitor" element={ <HomePage/> } />
       </Routes>
       <Routes>
-            <Route  path="/visitor/authentication" element={ <VisitorAuth/> }/>
+            <Route  path="/ivisitor/visitor/authentication" element={ <VisitorAuth/> }/>
       </Routes>
       <Routes>
-            <Route  path="/admin" element={ <AdminLogin/> }/>
+            <Route  path="/ivisitor/admin" element={ <AdminLogin/> }/>
       </Routes>
       <Routes>
-            <Route  path="/employee" element={ <EmployeeAuthentication/> }/>
+            <Route  path="/ivisitor/employee" element={ <EmployeeAuthentication/> }/>
       </Routes>
       </div>
   

@@ -31,7 +31,7 @@ export default function Visitor() {
                 <div className='in-out-container'>
                  
                  
-                 <Link to="/visitor/authentication">
+                 <Link to="/ivisitor/visitor/authentication">
                     <div className='in-out-box'>
                        <i className="fa fa-sign-in" style={{fontSize:'40px', color: color?'green':'transparent'}}></i>
                        <span>Sign-In</span> 

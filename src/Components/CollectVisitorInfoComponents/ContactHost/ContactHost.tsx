@@ -24,7 +24,7 @@ export const ContactHost:React.FC<Props> = ({host, visitorDetails, setpageHeader
     
 
      const endsession = () =>{
-        const handleClick = () => navigate('/visitor');
+        const handleClick = () => navigate('/ivisitor/visitor');
         setTimeout(handleClick, 10000)
      }
 
